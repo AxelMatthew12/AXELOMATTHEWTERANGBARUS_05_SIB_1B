@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Gaji05{
+public class Gaji05 {
     public static void main(String[] args) {
         Scanner input =new Scanner(System.in);
         int jmlMasuk, JmlTdkMasuk, TotGaji;
@@ -10,7 +10,7 @@ public class Gaji05{
         JmlTdkMasuk=input.nextInt();
         TotGaji=(jmlMasuk*gaji)-(JmlTdkMasuk*potGaji);
         System.out.println("Gaji yang anda terima adalah"+TotGaji);
-
-
+        
     }
+    
 }
