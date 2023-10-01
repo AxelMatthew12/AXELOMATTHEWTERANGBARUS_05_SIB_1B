@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Lingkaran05{
+public class LingkaranNoabsen5 {
     public static void main(String[] args) {
         Scanner input =new Scanner(System.in);
         int r;
@@ -11,6 +11,6 @@ public class Lingkaran05{
         System.out.println(keliling);
         System.out.println(luas);
 
-        
     }
+    
 }
