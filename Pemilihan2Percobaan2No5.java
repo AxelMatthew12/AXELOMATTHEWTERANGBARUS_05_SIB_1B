@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+import javax.swing.event.SwingPropertyChangeSupport;
 public class Pemilihan2Percobaan2No5 {
     public static void main(String[] args) {
         Scanner input00 = new Scanner(System.in);
@@ -17,28 +19,36 @@ public class Pemilihan2Percobaan2No5 {
          totalSudut = sudut1 + sudut2 + sudut3;
         //rumus
         if(totalSudut == 180){
-           { if((sudut1 == 60) || (sudut2 == 30) || (sudut3 == 90)) 
-            System.out.println("Segitiga tersebut adalah segitiga siku-siku");}
+            if((sudut1 == 90) || (sudut2 == 90) || (sudut3 == 90)) {
+            System.out.println("Segitiga tersebut adalah segitiga siku-siku");
+            }
+            else if(sudut1 == 60 && sudut2 == 60 && sudut3 == 60) {
+            System.out.println("Segitiga tersebut adalah segitiga sama sisi");
+            }
+            else if((sudut1 == 90) || (sudut2 == 60) && (sudut3 == 90)) {
+            System.out.println("Segitiga tersebut adalah segitiga sama kaki");             
+            }else
+                System.out.println("Segitiga tersebut adalah segitiga sembarang");
             
-            {if((sudut1== 60) || (sudut2 == 60) || (sudut3 == 60))
-            System.out.println("Segitiga tersebut adalah segitiga sama sisi");}
-            {if((sudut1 == 90) || (sudut2 == 60) || (sudut3 == 90))
-            System.out.println("Segitiga tersebut adalah segitiga sama kaki");} }
-            
-            else{
-            System.out.println("Merupakan segitiga sembarang");
+
+            } else 
+        System.out.println("Bukan merupakan segitiga");
+
+            }
+ 
         }
-        {
-        else
-        System.out.println("Bukkan merupakaan segitiga");}
+    
+
+ 
         
 
 
-        }
+        
 
         
 
 
-    }
+    
+
     
 

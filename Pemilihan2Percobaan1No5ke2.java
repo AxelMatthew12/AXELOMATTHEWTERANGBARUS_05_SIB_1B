@@ -12,6 +12,9 @@ public class Pemilihan2Percobaan1No5ke2 {
         System.out.println("Tahun adalah :  "+tahun);
         if((tahun % 4)== 0) {
             if((tahun % 100)==0){
+                if((tahun % 400) ==0){
+                    
+                }
                 
                 
             }

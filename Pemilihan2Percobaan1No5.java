@@ -9,7 +9,7 @@ public class Pemilihan2Percobaan1No5{
         int tahun = input00.nextInt();
 
         System.out.println("Tahun adalah :  "+tahun);
-        if((tahun % 4)== 0) {
+        if((tahun % 4)!= 0) {
             if((tahun % 100)==0){
                 
             }
