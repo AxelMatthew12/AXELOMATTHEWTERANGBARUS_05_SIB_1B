@@ -1,9 +1,9 @@
 package Jobsheet7;
-import java.util.Scanner;
-public class WhileGajiNo5 {
+   import java.util.Scanner;
+public class WhileGajiModif2No5 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-
+        //inputan
         int jumlahKaryawan,jumlahJamLembur;
         double gajiLembur, totalGajiLembur;
         gajiLembur= 0;
@@ -30,16 +30,34 @@ public class WhileGajiNo5 {
                 gajiLembur = jumlahJamLembur * 75000; 
             
             }  
-            
+            else{
+                System.out.println("Jabatan invaild");
             }
             totalGajiLembur += gajiLembur;
             System.out.println("Total gaji lembur: " + totalGajiLembur);
-                }         
-
-           
-        }
-        
-
     
-    
+}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
