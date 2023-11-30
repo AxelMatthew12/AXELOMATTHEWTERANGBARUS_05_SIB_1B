@@ -1,4 +1,4 @@
-package Jobsheet5;
+package Jobsheet4;
 import java.util.Scanner;
 public class Hargabayar05{
     public static void main(String[] args) {
