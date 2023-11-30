@@ -1,3 +1,4 @@
+package Jobsheet5;
 import java.util.Scanner;
 public class Gaji05 {
     public static void main(String[] args) {
