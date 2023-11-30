@@ -1,7 +1,7 @@
 package Jobsheet14;
 import java.util.Scanner;
 
-public class Main {
+public class Fungsirekrusi {
     static int hitungPenjumlahan(int n) {
         if (n == 1) {
             System.out.print("1 ");
